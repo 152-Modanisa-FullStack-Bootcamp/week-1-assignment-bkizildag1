@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(mdns_background.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+.login-page{
+    background:rgba(58,63,68,0.5);
+    border-radius: 5px;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    width:350px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0 0;
+    margin: auto;
+    
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    color: #ffff;
+	padding:45px;
+    max-width: 360px;
+	margin: 0 auto 100px;	
+	border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    transition: all 0.5s;
+    position: relative;
+    background-color: #66A182;
+    height: 33.33%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    
+}
+
+
+
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="button"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: #3A3F44;  
+}
+
+.register-form {
+    background-color: #222222;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    justify-content: center;
+  }
+
+  .user:before {
+    content: '\f007';
+    font: 40px fontawesome;
+    color: #5b5b5b;
+  }
+  
+  .lock:before {
+    content: '\f023';
+    font: 40px fontawesome;
+    color: #5b5b5b;
+  }
+  
+  .mail:before{
+    content: '\f01c';
+    font: 40px fontawesome;
+    color: #5b5b5b;
+
+  }
+  
+  .form-login input[type="text"], .form-login input[type="password"] {
+    background-color: #ffffff;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .form-login input[type="text"]:focus, .form-login input[type="text"]:hover, .form-login input[type="password"]:focus, .form-login input[type="password"]:hover {
+    background-color: #eeeeee;
+  }
+  
+
+  .form-field {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .text--center {
+    text-align: center;
+  }
